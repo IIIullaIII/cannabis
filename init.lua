@@ -9,7 +9,7 @@ dofile(path.."/canapa.lua")
 dofile(path.."/node_ingot.lua")
 dofile(path.."/craftitem.lua")
 dofile(path.."/armor.lua")
-dofile(path.."/joint.lua")
+--dofile(path.."/joint.lua")   --for joint if want enable   Per abilitare la sigaretta di canapa    
 dofile(path.."/canapa_rossa.lua")
 dofile(path.."/craftred.lua")
 dofile(path.."/rope.lua")
