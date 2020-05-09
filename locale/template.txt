@@ -3,102 +3,103 @@
 
 ### armor.lua ###
 
- Boots=Stivali
- Chestplate=Corazza
- Helmet=Elmo
- Hemp Shield= Scudo di canapa
- Leggings=Gambali
+ Boots=
+ Chestplate=
+ Helmet=
+ Hemp Shield=
+ Leggings=
 
 ### canapa.lua ###
 
-Hemp=Canapa
-Hemp (climbing plant)=Canapa (rampicante)
+Hemp=
+Hemp (climbing plant)=
 Hemp (flowering)=
-Hemp (seedling)=Canapa (piantina)
-Hemp (sproutling)=Canapa (germoglio)
+Hemp (seedling)=
+Hemp (sproutling)=
 
 ### canapa_rossa.lua ###
 
 Hemp (Red flowering)=
-Hemp red=Canapa rossa
-Hemp red (climbing plant)=Canapa rossa (rampicante)
-Hemp red (sproutling)=Canapa rossa (piantina)
-Hemp red(seedling)=Canapa rossa (germoglio)
+Hemp red=
+Hemp red (climbing plant)=
+Hemp red (sproutling)=
+Hemp red(seedling)=
 
 ### craftitem.lua ###
 
-BioFuel=BioCarburante
-Bread=Pane
-Fiber=Fibra
-Flour=Farina
-Hemp Flower=Fiore di Canapa 
-Hemp Glue=Colla di Canapa 
-Hemp Oil=Olio di Canapa 
-Hemp Resin=Resina di Canapa
-Paper=Carta
-Plastic=Plastica
+BioFuel=
+Bread=
+Fiber=
+Flour=
+Hemp Flower=
+Hemp Glue=
+Hemp Oil=
+Hemp Resin=
+Paper=
+Plastic=
 
 ### craftitem.lua ###
 ### craftred.lua ###
 
-Hemp Leaves= Foglie di canapa
-Hemp Seed= Semi di canapa
+Hemp Leaves=
+Hemp Seed=
 
 ### craftred.lua ###
 
-Hemp red Flower=Fiore di canapa rossa
+Hemp red Flower=
 
 ### joint.lua ###
 
-Filter=Filtro
-Filters pack=Pacchetto di filtri
-Flowering chopped=Infiorescenza triturata
-Hash melted=Fumo sciolto
-Joint of hash lit=Sigaretta con fumo accesa
-Joint of hash unlit=Sigaretta con fumo spenta
-Joint of weed lit=Sigaretta di erba acceso
-Joint of weed unlit=Sigaretta di erba spenta
-Lighter=Accendino
-Rolling paper=Cartine
-Rolling paper with hemp leaves and flowering chopped =Cartina con foglie e cime di canapa
-Rolling paper with hemp leaves melted hash=Cartina con foglie e resina sciolta di canapa
+Filter=
+Filters pack=
+Flowering chopped=
+Hash melted=
+Joint of hash lit=
+Joint of hash unlit=
+Joint of weed lit=
+Joint of weed unlit=
+Lighter=
+Rolling paper=
+Rolling paper with hemp leaves and flowering chopped =
+Rolling paper with hemp leaves melted hash=
 
 ### node_ingot.lua ###
 
-Adminh Block=Blocco Adminh (indistruttibile)
-Adminh Ingot=Lingotto Adminh
-Fabric Block=Blocco di Tessuto
-Fabric Ingot=Lingotto tessuto
-Fiber Block=Blocco di fibra
-Fiber Ingot=Lingotto di fibra
-High Performance Block=Blocco ad alte prestazioni
-High Performance Block Hemp=Blocco alla fibra di canapa ad alte prestazioni
-High Performance Ingot=Lingotto alte prestazioni
-Leaves Block=Blocco di foglie
-Leaves Ingot=Lingotto di foglie
-Mixed HR Ingot=Lingotto mescola HR
-Red Leaves Block=Blocco di foglie rosse
+Adminh Block=
+Adminh Ingot=
+Fabric Block=
+Fabric Ingot=
+Fiber Block=
+Fiber Ingot=
+High Performance Block=
+High Performance Block Hemp=
+High Performance Ingot=
+Leaves Block=
+Leaves Ingot=
+Mixed HR Ingot=
+Red Leaves Block=
 
 ### tools.lua ###
 
-Hemp Adminh Pickaxe=Piccone Adminh di canapa
-Hemp Bronze Axe=Ascia di canapa e bronzo
-Hemp Bronze Pickaxe=Piccone di canapa e bronzo
-Hemp Bronze Shovel=Pala di canapa e bronzo
-Hemp Bronze Sword=Spada di canapa e bronzo
-Hemp Diamond Axe=Ascia di canapa e diamante
-Hemp Diamond Pickaxe=Picconedi canapa e diamante
-Hemp Diamond Shovel=Pala di canapa e diamante
-Hemp Diamond Sword=Spada di canapa e diamante
-Hemp High Performance Axe=Ascia di canapa ad alte prestazioni
-Hemp High Performance Sword=Spada di canapa ad alte prestazioni
-Hemp High Pickaxe=Piccone di canapa ad alte prestazioni
-Hemp High Shovel=Pala di canapa ad alte prestazioni
-Hemp Mese Axe=Ascia di canapa e mese
-Hemp Mese Pickaxe=Piccone di canapa e mese
-Hemp Mese Shovel=Pala di canapa e mese
-Hemp Mese Sword=Spada di canapa e mese
-Hemp Steel Axe=Ascia di canapa ed acciaio
-Hemp Steel Pickaxe=Piccone di canapa ed acciaio
-Hemp Steel Shovel=Pala di canapa ed acciaio
-Hemp Steel Sword=Spada di canapa ed acciaio
+Hemp Admin High Performance Sword=
+Hemp Adminh Pickaxe=
+Hemp Bronze Axe=
+Hemp Bronze Pickaxe=
+Hemp Bronze Shovel=
+Hemp Bronze Sword=
+Hemp Diamond Axe=
+Hemp Diamond Pickaxe=
+Hemp Diamond Shovel=
+Hemp Diamond Sword=
+Hemp High Performance Axe=
+Hemp High Performance Sword=
+Hemp High Pickaxe=
+Hemp High Shovel=
+Hemp Mese Axe=
+Hemp Mese Pickaxe=
+Hemp Mese Shovel=
+Hemp Mese Sword=
+Hemp Steel Axe=
+Hemp Steel Pickaxe=
+Hemp Steel Shovel=
+Hemp Steel Sword=
