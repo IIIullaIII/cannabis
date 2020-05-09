@@ -81,7 +81,6 @@ Red Leaves Block=
 
 ### tools.lua ###
 
-Hemp Admin High Performance Sword=
 Hemp Adminh Pickaxe=
 Hemp Bronze Axe=
 Hemp Bronze Pickaxe=
