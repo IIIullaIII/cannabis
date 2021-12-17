@@ -9,6 +9,12 @@
  Hemp Shield= Hanfschild
  Leggings= Hose
 
+### bag.lua ###
+
+Large Bob Bag= BOB Tasche Breit
+Medium Bob Bag= BOB Tasche Mittel
+Small Bob Bag= BOB Tasche Klein
+
 ### canapa.lua ###
 
 Hemp=Hanf
@@ -17,7 +23,15 @@ Hemp (flowering)=Hanf (blühend)
 Hemp (seedling)=Hanf (Sämling)
 Hemp (sproutling)=Hanf (sprießend)
 
-### canapa_rossa.lua ###
+### canapa_ice.lua ###
+
+Hemp (Ice flowering)=Gletscherhanf
+Hemp ice= Gletscherhanf (blühend)
+Hemp ice (climbing plant)=Gletscherhanf (kletternde Pflanze)
+Hemp ice (sproutling)=Gletscherhanf (sprießend)
+Hemp ice(seedling)=Gletscherhanf (Sämling)
+
+### canapa_red.lua ###
 
 Hemp (Red flowering)=Hanf (Rot blühend)
 Hemp red=Roter Hanf
@@ -25,10 +39,22 @@ Hemp red (climbing plant)=Roter Hanf (kletternde Pflanze)
 Hemp red (sproutling)=Roter Hanf (Sämling)
 Hemp red(seedling)=Roter Hanf (Sprießend)
 
+### craftice.lua ###
+
+Hemp ice Flower= Gletscherhanfblume
+
+### craftice.lua ###
+### craftitem.lua ###
+### craftred.lua ###
+
+Hemp Leaves=Hanfblätter
+Hemp Seed=Hanfsamen
+
 ### craftitem.lua ###
 
 BioFuel=BioKraftstoff
 Bread=Brot
+Cloth=
 Fiber=Faser
 Flour=Mehl
 Hemp Flower=Hanfblume
@@ -37,12 +63,6 @@ Hemp Oil=Hanföl
 Hemp Resin=Hanfharz
 Paper=Papier
 Plastic=Plastik
-
-### craftitem.lua ###
-### craftred.lua ###
-
-Hemp Leaves=Hanfblätter
-Hemp Seed=Hanfsamen
 
 ### craftred.lua ###
 

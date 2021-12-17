@@ -16,7 +16,10 @@ minetest.register_craftitem("cannabis:canapa_plastic", {
 	description = S("Plastic"),
 	inventory_image = "cannabis_plastic.png",
 })
-
+minetest.register_craftitem("cannabis:canapa_cloth", {
+	description = S("Cloth"),
+	inventory_image = "cannabis_cloth.png",
+})
 minetest.register_craftitem("cannabis:canapa_paper", {
 	description = S("Paper"),
 	inventory_image = "cannabis_paper.png",
@@ -134,16 +137,15 @@ minetest.register_craft({
         
 
 
-
-
 minetest.register_craft({
-	output = "cannabis:canapa_seed 10 ",
+	output = "cannabis:canapa_cloth 3 ",
 	recipe = {
-		{"cannabis:canapa","",""},
-                {"","cannabis:canapa",""},
-                {"","","cannabis:canapa"},
+		{"cannabis:canapa_fiber", "cannabis:canapa_fiber", "cannabis:canapa_fiber"},
+        {"cannabis:canapa_fiber", "cannabis:canapa_fiber", "cannabis:canapa_fiber"},
 	}
 })
+
+
 
 
 minetest.register_craft({
@@ -172,7 +174,7 @@ minetest.register_craft({
 minetest.register_craft({
 	type = "fuel",        
 	recipe = "cannabis:canapa_fuel",
-	burntime = 50,
+	burntime = 70,
 })
 
 
@@ -210,3 +212,34 @@ minetest.register_craft({
 	recipe = {"cannabis:fibra_ingot", "cannabis:foglie_ingot", "cannabis:tessuto_ingot"}
 })
 
+-- register bag crafts
+if minetest.get_modpath("unified_inventory") ~= nil then
+	minetest.register_craft({
+		output = "cannabis:bag_bob_small",
+		recipe = {
+			{"","cannabis:canapa_fiber",""},
+			{"cannabis:canapa_cloth", "cannabis:canapa_cloth",     "cannabis:canapa_cloth"},
+			{"cannabis:canapa_cloth", "cannabis:canapa_cloth",     "cannabis:canapa_cloth"},
+		},
+	})
+	
+
+	minetest.register_craft({
+		output = "cannabis:bag_bob_medium",
+		recipe = {
+			{"cannabis:canapa_cloth","","cannabis:canapa_cloth"},
+			{"cannabis:canapa_fiber", "cannabis:bag_bob_small", "cannabis:canapa_fiber"},
+			{"cannabis:canapa_fiber", "cannabis:bag_bob_small", "cannabis:canapa_fiber"},
+		},
+	})
+
+	minetest.register_craft({
+		output = "cannabis:bag_bob_large",
+		recipe = {
+			{"cannabis:canapa_cloth","cannabis:canapa_cloth","cannabis:canapa_cloth"},
+			{"cannabis:cannabis_tessuto_block", "cannabis:bag_bob_medium", "cannabis:cannabis_tessuto_block"},
+			{"cannabis:cannabis_tessuto_block", "cannabis:bag_bob_medium", "cannabis:cannabis_tessuto_block"},
+	    },
+	})
+
+end
